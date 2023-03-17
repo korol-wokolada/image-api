@@ -12,7 +12,7 @@ input.addEventListener("keydown", (e) => {
 function loadImg() {
   removeImg();
   const url =
-    "http://api.unsplash.com/search/photos/?query=" +
+    "https://api.unsplash.com/search/photos/?query=" +
     input.value +
     "&per_page=12&client_id=qQp9YLJAMRrioT2HCr6KiaxmQuVr6wbypvwk_lQ_S_w";
 
